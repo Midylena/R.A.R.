@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chamada"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_endcall"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="451dp"
+            android:layout_marginEnd="5dp"
+            android:onClick="endCall"
+            android:text="Encerrar ligação" />
+
+        <Button
+            android:id="@+id/button_dcamera"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="456dp"
+            android:onClick="pausarVideo"
+            android:text="desativar camera" />
+
+        <Button
+            android:id="@+id/button_mcamera"
+            android:layout_width="84dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="458dp"
+            android:onClick="mudarCamera"
+            android:text="mudar camera" />
+
+        <Button
+            android:id="@+id/button_mutar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="460dp"
+            android:onClick="mutar"
+            android:text="Mutar" />
+
+        <Button
+            android:id="@+id/button_iniciarAtendimento"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="411dp"
+            android:layout_marginEnd="99dp"
+            android:onClick="startCall"
+            android:text="Iniciar Atendimento" />
+
+        <Button
+            android:id="@+id/button_liga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="407dp"
+            android:layout_marginEnd="299dp"
+            android:onClick="ligaled"
+            android:text=" TESTE ESP" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="305dp"
+            android:layout_marginEnd="66dp"
+            android:text="Voz e Vídeo"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/switch_TipoAtend"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="296dp"
+            android:layout_marginEnd="176dp"
+            android:checked="true"
+            android:onClick="tipoAtend" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="306dp"
+            android:layout_marginEnd="229dp"
+            android:text="Somente Voz"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="2dp"
+            android:text="Agora você esta a um passo de se conectar com o R.A.R!"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="162dp"
+            android:layout_marginEnd="13dp"
+            android:text="Lembre-se de que você entrará em um ambiente Público! Se você não puder ou não se sentir a vontade, pode desligar a sua câmera na opção abaixo! "
+            android:textColor="#FF6868"
+            android:textSize="18sp" />
+
+</RelativeLayout>
